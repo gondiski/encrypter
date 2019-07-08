@@ -34,7 +34,7 @@
             text-align:center;
             box-sizing:border-box;
         }
-        textarea{
+        textarea,input{
             padding:10px;
             border:2px solid black;
             margin:3px 0;
@@ -61,6 +61,7 @@
         <div class="container">
         <form method="POST" action="/">
         <label>Enter to encrypt</label><br>
+        <input type="number" placeholder="******" max="16">
         <textarea rows="5" cols="25" placeholder="Type your message here..."></textarea>
         <input type="submit" value="Encrypt">
         </form>
